@@ -26,5 +26,5 @@ function changeTheme(e) {
 
 refs.toolbar.addEventListener('change', changeTheme);
 // refs.toolbar.addEventListener('checked', changeThemeToDark);
-localStorage.setItem('theme', JSON.stringify(Theme));
-console.log(localStorage.getItem('Theme'));
+// localStorage.setItem('theme', JSON.stringify(Theme));
+// console.log(localStorage.getItem('Theme'));
